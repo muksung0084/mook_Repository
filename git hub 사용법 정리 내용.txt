@@ -1,43 +1,47 @@
-Git hub »ç¿ëÇÏ±â 
+Git hub ì‚¬ìš©í•˜ê¸° 
 
 1. command 
-  github¿Í ¿¬µ¿µÉ Root Æú´õ ¿¬°áÇÏ±â 
+  githubì™€ ì—°ë™ë  Root í´ë” ì—°ê²°í•˜ê¸° 
 
-  - Æú´õ(root folder)»ý¼º ÈÄ --> Æú´õ¿¡¼­ git bash 
-  - ¸í·É¾î ÀÔ·Â 
-        - git init   --> »õ·Ó°Ô »ý¼ºµÈ Æú´õ¿¡ ´ëÇØ¼­¸¸ ½ÇÇà½ÃÄÑ ÁÖ¸éµÇ. 
-	/  root Æú´õ¾È¿¡ .git Æú´õ°¡ »ý¼ºµÊ / 
-             / ÀÌÁ¦ ³»°¡ git hubÀÇ repository¿¡ ¿Ã¸®°í ´Ù¿î¹Þ´Â ÆÄÀÏµéÀÌ »ý¼ºµÇ°í ¿¬µ¿µÇ´Â Àå¼Ò /
+  - í´ë”(root folder)ìƒì„± í›„ --> í´ë”ì—ì„œ git bash 
+  - ëª…ë ¹ì–´ ìž…ë ¥ 
+        - git init   --> ìƒˆë¡­ê²Œ ìƒì„±ëœ í´ë”ì— ëŒ€í•´ì„œë§Œ ì‹¤í–‰ì‹œì¼œ ì£¼ë©´ë˜. 
+	/  root í´ë”ì•ˆì— .git í´ë”ê°€ ìƒì„±ë¨ / 
+             / ì´ì œ ë‚´ê°€ git hubì˜ repositoryì— ì˜¬ë¦¬ê³  ë‹¤ìš´ë°›ëŠ” íŒŒì¼ë“¤ì´ ìƒì„±ë˜ê³  ì—°ë™ë˜ëŠ” ìž¥ì†Œ /
 
         - git remote add origin https://github.com/muksung0084/mook_Repository.git 
-             / repository address¸¦ ÀÔ·Â  /
+             / repository addressë¥¼ ìž…ë ¥  /
  ---------------------------------------------------------------------------------------------------------
-        -  pull ( git repository·Î ºÎÅÍ ¿øÇÏ´Â ÆÄÀÏÀ» ºÒ·¯ÁØ´Ù. )
-          > git pull origin master  / repository¿¡ ÀÖ´Â ¸ðµç ÆÄÀÏÀ» ¶¯°Ü ¿À°Ú´Ù. /  --> ¹¹°¡ ¼öÁ¤µÇ¾ú´ÂÁö ´ë·« ³ª¿È. ( ´Ù¸¥»ç¶÷µé°ú °øÀ¯ÇÒ¶§ Áß¿ä ) 
+        -  pull ( git repositoryë¡œ ë¶€í„° ì›í•˜ëŠ” íŒŒì¼ì„ ë¶ˆëŸ¬ì¤€ë‹¤. )
+          > git pull origin master  / repositoryì— ìžˆëŠ” ëª¨ë“  íŒŒì¼ì„ ë•¡ê²¨ ì˜¤ê² ë‹¤. /  --> ë­ê°€ ìˆ˜ì •ë˜ì—ˆëŠ”ì§€ ëŒ€ëžµ ë‚˜ì˜´. ( ë‹¤ë¥¸ì‚¬ëžŒë“¤ê³¼ ê³µìœ í• ë•Œ ì¤‘ìš” ) 
 
-               > ´Ù¸¥ »ç¶÷ÀÇ repository °¡Á®¿À±â. (»õ·Î¿î Æú´õ¸¦ ¸¸µé¾î ¹ÞÀ» ¼öÀÖÀ½)
-               > git init --> git remote add origin ¿øÇÏ´Â »ç¶÷ÀÇ repository ÁÖ¼Ò 
-               > git pull origin master¸¦ ÇÏ°ÔµÇ¸é ÇØ´ç repository¿¡¼­ ÆÄÀÏµéÀ» ¶¯°Ü¿È. 
-                    ( ´©±º°¡ÀÇ public data¸¦ °¡Á®¿Ã¶© ·Î±×ÀÎ ±ÇÇÑ ¾ø¾îµµµÊ. )
+               > ë‹¤ë¥¸ ì‚¬ëžŒì˜ repository ê°€ì ¸ì˜¤ê¸°. (ìƒˆë¡œìš´ í´ë”ë¥¼ ë§Œë“¤ì–´ ë°›ì„ ìˆ˜ìžˆìŒ)
+               > git init --> git remote add origin ì›í•˜ëŠ” ì‚¬ëžŒì˜ repository ì£¼ì†Œ 
+               > git pull origin masterë¥¼ í•˜ê²Œë˜ë©´ í•´ë‹¹ repositoryì—ì„œ íŒŒì¼ë“¤ì„ ë•¡ê²¨ì˜´. 
+                    ( ëˆ„êµ°ê°€ì˜ public dataë¥¼ ê°€ì ¸ì˜¬ë• ë¡œê·¸ì¸ ê¶Œí•œ ì—†ì–´ë„ë¨. )
 
-        -  push ( git repository·Î ºÎÅÍ ¿øÇÏ´Â ÆÄÀÏÀ» ÀúÀå½ÃÄÑ ÁØ´Ù. )
+        -  push ( git repositoryë¡œ ë¶€í„° ì›í•˜ëŠ” íŒŒì¼ì„ ì €ìž¥ì‹œì¼œ ì¤€ë‹¤. )
           > git status 
-              / ÇöÀç ³ªÀÇ local Æú´õ¿Í git°úÀÇ ½ÌÅ©»óÅÂ¸¦ º¸¿©ÁÜ, ÀÌ ¼öÁ¤ ÆÄÀÏÀÌ repository¿¡ ¾÷·Îµå°¡ µÇ¾îÀÖ¾ú´ÂÁö  /
-              / untracked files :   ""  --> ÇØ´ç ÆÄÀÏÀÌ root¿¡´Â ÀÖ´Âµ¥ gitÀ¸·Î ¾÷·Îµå µÇÁø ¾Ê¾Ò´Ù´Â °ÍÀ» º¸¿©ÁÜ
+              / í˜„ìž¬ ë‚˜ì˜ local í´ë”ì™€ gitê³¼ì˜ ì‹±í¬ìƒíƒœë¥¼ ë³´ì—¬ì¤Œ, ì´ ìˆ˜ì • íŒŒì¼ì´ repositoryì— ì—…ë¡œë“œê°€ ë˜ì–´ìžˆì—ˆëŠ”ì§€  /
+              / untracked files :   ""  --> í•´ë‹¹ íŒŒì¼ì´ rootì—ëŠ” ìžˆëŠ”ë° gitìœ¼ë¡œ ì—…ë¡œë“œ ë˜ì§„ ì•Šì•˜ë‹¤ëŠ” ê²ƒì„ ë³´ì—¬ì¤Œ
 
           > git add . 
-                 / ¼öÁ¤ÇÑ ÆÄÀÏÀ» ¸ðµÎ(.À» ºÙÀÏ½Ã) tracking ÇØÁÜ/ root folder¿¡¼­ ¾÷·Îµå ¾ÈµÈ ÆÄÀÏÀ» ¸ðµÎ tracking ½ÃÄÑÁÜ.
+                 / ìˆ˜ì •í•œ íŒŒì¼ì„ ëª¨ë‘(.ì„ ë¶™ì¼ì‹œ) tracking í•´ì¤Œ/ root folderì—ì„œ ì—…ë¡œë“œ ì•ˆëœ íŒŒì¼ì„ ëª¨ë‘ tracking ì‹œì¼œì¤Œ.
 
-          > git commit -m "___"  / ÇØ´ç ¼öÁ¤º»¿¡ ´ëÇÑ Ç¥½ÄÀ» ÇØÁÜ - ÀÌ¸§»ý¼º /
-          > git push origin master / ÀÌ ÆÄÀÏÀ» repository¿¡ ÀúÀå½ÃÅ°°Ú´Ù./
+          > git commit -m "___"  / í•´ë‹¹ ìˆ˜ì •ë³¸ì— ëŒ€í•œ í‘œì‹ì„ í•´ì¤Œ - ì´ë¦„ìƒì„± /
+          > git push origin master / ì´ íŒŒì¼ì„ repositoryì— ì €ìž¥ì‹œí‚¤ê² ë‹¤./
 
-         - ·Î±×ÀÎÃ¢ ³ª¿È 
-           > push Áï ¾÷·Îµå ÇÒ¶§ ³ª¿È, 
-
-
+         - ë¡œê·¸ì¸ì°½ ë‚˜ì˜´ 
+           > push ì¦‰ ì—…ë¡œë“œ í• ë•Œ ë‚˜ì˜´, 
 
 
 
-// repository ¿¡¼­ ÀÚÃ¼ ¼öÁ¤ÀÌ °¡´ÉÇÔ //
-// --> ÀÌ·¸°Ô µÇ¸é ¿Â¶óÀÎ»ó¿¡¼­ ¼öÁ¤µÇ°í ³ªÀÇ local folder¿¡´Â ±× ¼öÁ¤º»ÀÌ ¾øÀ¸¹Ç·Î //  ÃÖ½ÅÆÄÀÏÀÌ GIT HUB¿¡ ÀÖ´Â »óÅÂ
-        ÇÊÈ÷ »ç¿ëÀü PULLÀ» ½Ç½ÃÇØ¾ßÇÔ.!!! 
+
+
+// repository ì—ì„œ ìžì²´ ìˆ˜ì •ì´ ê°€ëŠ¥í•¨ //
+// --> ì´ë ‡ê²Œ ë˜ë©´ ì˜¨ë¼ì¸ìƒì—ì„œ ìˆ˜ì •ë˜ê³  ë‚˜ì˜ local folderì—ëŠ” ê·¸ ìˆ˜ì •ë³¸ì´ ì—†ìœ¼ë¯€ë¡œ //  ìµœì‹ íŒŒì¼ì´ GIT HUBì— ìžˆëŠ” ìƒíƒœ
+        í•„ížˆ ì‚¬ìš©ì „ PULLì„ ì‹¤ì‹œí•´ì•¼í•¨.!!! 
+	
+	
+	
+	 ë‚´ìš©ê³¼ ì¤„ ì¶”ê°€ì‹œ @@ 
